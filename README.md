@@ -4,6 +4,21 @@ End-to-end data engineering pipeline for mining equipment monitoring, built on D
 
 Processes sensor telemetry from 10 equipment units across 4 types (haul trucks, excavators, conveyors, crushers), integrates real-world Kaggle datasets, and powers a 5-page operational dashboard.
 
+## Live Dashboard (Databricks SQL)
+
+**Interactive operational dashboard built on Gold/Silver Delta tables**
+
+View Dashboard:  
+[https://<your-databricks-workspace>/sql/dashboards/<dashboard-id>](https://dbc-d8366690-f1bb.cloud.databricks.com/dashboardsv3/01f104660f6514db89a214cf38d7de2c/published?o=3512094000927316)
+
+**Dashboard Pages**
+- Fleet Overview (KPIs, utilization, health trends)
+- Equipment Drilldown (per-unit metrics and degradation)
+- Anomalies & Alerts (severity, heatmaps, sensor distribution)
+- Data Quality (Bronze → Silver funnel, quarantine reasons)
+- Flotation & Failures (process quality, failure analysis)
+
+
 ## Architecture
 
 ```
