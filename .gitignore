@@ -1,0 +1,23 @@
+# Data files
+*.csv
+*.json
+*.parquet
+*.zip
+*.gz
+Kaggle NASA datasets/
+
+# Python
+*.pyc
+__pycache__/
+
+# Databricks
+.databricks/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
